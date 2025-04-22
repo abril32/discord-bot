@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 "discord.py" = "*"
-python-dotenv = "*"
-dotenv = "*"
+
+[scripts]
+"start" = "python main.py"
 
 [dev-packages]
 
